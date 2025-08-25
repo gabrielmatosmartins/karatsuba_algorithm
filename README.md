@@ -19,7 +19,10 @@ Este repositório contém:
 ## Execução ##
 Para executar o codigo execute o cmd no local do arquivo main.py 
 insira o comando :
-```python  main.py```
+```
+python  main.py
+
+```
 no seu cmd 
 
 
@@ -35,7 +38,11 @@ no seu cmd
 ## Testes sugeridos ##
 
 Execute:
-```python -m unittest tests/test_karatsuba.py```
+```
+
+python -m unittest tests/test_karatsuba.py
+
+```
 
 
 ## Explicação linha a linha ##
