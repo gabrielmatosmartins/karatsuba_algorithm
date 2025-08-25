@@ -1,9 +1,42 @@
 # Karatsuba #
+
+## Visão geral ##
+Karatsuba é um algoritmo de multiplicação que reduz o número de multiplicações necessárias para multiplicar inteiros grandes. A complexidade assintótica é aproximadamente O(n^log2(3)) ≈ O(n^1.585), onde n é o número de dígitos.
+
+Este repositório contém:
+
+* Uma implementação clara do algoritmo.
+
+* Imagem do Grafo que representa a sequência do Algoritmo
+
+
+## Requisitos ##
+
+*Python 3.8+ (funciona em Python 3.7, mas recomenda-se 3.8+).
+
+*Nenhuma dependência externa.
+
 ## Execução ##
 Para executar o codigo execute o cmd no local do arquivo main.py 
 insira o comando :
 `python  main.py`
 no seu cmd 
+
+
+## Estrutura recomendada do repositório
+
+- `main.py`            — implementação principal (karatsuba e exemplo de execução).
+- `README.md`          — este arquivo.
+- `Artefatos/`         — fluxogramas/grafos gerados (ex.: `Karatsuba_grafos.png`).
+- `tests/`             — testes unitários.
+
+---
+
+## Testes sugeridos ##
+
+Execute:
+`python -m unittest tests/test_karatsuba.py`
+
 
 ## Explicação linha a linha ##
 
@@ -76,6 +109,4 @@ M = 1
 
 ## Grafo algoritimo Karatsuba ##
 ![Grafo do algoritimo](./Artefatos/Karatsuba_grafos.png)
-
-
 
