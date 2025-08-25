@@ -12,22 +12,22 @@ Este repositório contém:
 
 ## Requisitos ##
 
-*Python 3.8+ (funciona em Python 3.7, mas recomenda-se 3.8+).
+* Python 3.8+ (funciona em Python 3.7, mas recomenda-se 3.8+).
 
-*Nenhuma dependência externa.
+* Nenhuma dependência externa.
 
 ## Execução ##
 Para executar o codigo execute o cmd no local do arquivo main.py 
 insira o comando :
-`python  main.py`
+```python  main.py```
 no seu cmd 
 
 
 ## Estrutura recomendada do repositório
 
-- `main.py`            — implementação principal (karatsuba e exemplo de execução).
+- `main.py`            — implementação principal.
 - `README.md`          — este arquivo.
-- `Artefatos/`         — fluxogramas/grafos gerados (ex.: `Karatsuba_grafos.png`).
+- `Artefatos/`         — fluxogramas/grafos gerados.
 - `tests/`             — testes unitários.
 
 ---
@@ -35,7 +35,7 @@ no seu cmd
 ## Testes sugeridos ##
 
 Execute:
-`python -m unittest tests/test_karatsuba.py`
+```python -m unittest tests/test_karatsuba.py```
 
 
 ## Explicação linha a linha ##
